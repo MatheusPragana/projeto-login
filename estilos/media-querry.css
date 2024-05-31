@@ -25,17 +25,20 @@
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     section#login{
-        width: 990px;
+        width: 950px;
     }
-    section#login > div#imagme{
-        float: center;
-        width: 40%;
+    section#login > div#imagem{
+        float: right;
+        width: 50%;
         height: 100%;
     }
 
     sction#login > div#formulario{
-        float: right;
-        width: 40%;
+        float: left;
+        width: 50%;
     }
+    div#formulario > p {
+        font-size: 1.2em;
     
+    } 
 }
